@@ -1,0 +1,18 @@
+{
+  "name": "image-gallery-django-lesson",
+  "description": "Beginner Project with Django and seeing how to startup a project.\r ## Installation\r - Used django-admin startproject <project_name>\r - cd <project_name>\r - python manage.py startapp gallery\r ## Lessons Learned\r - Registering model provides ease of administration tasks\r - Quick data management\r - The different fields that could be used in the model\r - Rendering the probject is used for html files to display on the site\r - URLS are used to map the views to URLS\r     - Created one for the app, although one was made for the project already\r - double {{}} is used for values from the database\r - had to create virtual enviroment and run the activate script required for the specific os\r - updated settings for static files to use for CSS, javacript and image files\r - static files can updated immediately without having to restart a seperate web server\r - created a super user to be able to add data into the data base\r - makemigrations, migrate, and runserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./imageGallery/gallery/templates/styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
