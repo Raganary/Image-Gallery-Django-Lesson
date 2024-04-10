@@ -8,6 +8,10 @@ Beginner Project with Django and seeing how to startup a project.
 
 ![alt text](Img/fullSized.png)
 
+## Tools Used
+
+* Django, HTML, TailwindCSS, Python
+
 ## Installation
 
 * Used django-admin startproject <project_name>
